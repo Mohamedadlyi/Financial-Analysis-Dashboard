@@ -146,7 +146,7 @@ def main():
 
     app.show(port = 8050)
 
-    server = app.server
+    server = app._server
 
 # ### Create dashboard
 
